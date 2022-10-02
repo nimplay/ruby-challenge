@@ -4,8 +4,8 @@ def missing_number(nums)
   sum = 0
   total = 0
   nums.each_with_index do |element, index|
-     sum += element
-     total += index + 1
+    sum += element
+    total += index + 1
   end
   puts total - sum
 end
